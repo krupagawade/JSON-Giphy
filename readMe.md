@@ -1,0 +1,3 @@
+Travel with JSON-Giphy
+
+Travel Giphy shows the images of your favorite destination countries. It uses GIPHY api to get 10 images of the country selected by user. It only gets the images that are rated as “g”. It also allows user to add their favorite countries and get the images from GIPHY. The user added countries are stored locally as local store on user’s devices. Travel site first check if local store information exists. If users have already visited the site and added their favorite countries, then it will show the default + user added countries. If user is visiting for 1st time than it shows the default countries in the list. It also allows user to download the images on their devices. 
