@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Bucket List</title>
+  <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Tangerine:700" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="pageheader" id="heading">
+                <span id="heading">My Bucket List</span>
+        </div>
+        
+
+        <!-- Movies will get dumped here -->
+        <div id="travel-view"></div>
+        <br>
+
+        <form id="travel-form" class="form-inline">
+            <div class="form-group" id="formDiv">
+                <input type="text" class="form-control" id="travel-input" placeholder="Enter your country here">
+            </div>
+            <!-- Button triggers new destination to be added -->
+                
+                <button type="submit" id="add-item" class="btn btn-primary"> 
+                    <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> + 
+                    <span class="glyphicon glyphicon-plane" aria-hidden="true"></span> + 
+                    <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                </button>
+
+                </input>
+        </form>
+        <br>
+
+        <div id="display-gif" class="flex-container"></div>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/travel.js"></script>
+
+
+    </div>
+</body>
+</html>
